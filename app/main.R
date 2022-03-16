@@ -21,6 +21,7 @@ ui <- function(id) {
 server <- function(id) {
   moduleServer(id, function(input, output, session) {
     output$message <- renderText("Hello!")
+    title_controls$server("title_controls") 
   })
-  title_controls$server("title_controls") 
+
 }
