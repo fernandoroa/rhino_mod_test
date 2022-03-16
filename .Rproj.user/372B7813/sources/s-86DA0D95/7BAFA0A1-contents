@@ -1,3 +1,0 @@
-Sys.setenv(GITHUB_PAT = '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')
-remotes::install_github("Appsilon/rhino")
-rhino::init()
